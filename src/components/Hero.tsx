@@ -102,7 +102,7 @@ export const Hero: React.FC = () => {
       {/* FIXED BACKGROUND IMAGE: Strictly preserved aspect ratio, invariant, no shifts */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none select-none">
         <img
-          src="/src/assets/images/hero_tilapia_panoramic_ice_1794379125393.jpg"
+          src="/assets/images/hero_tilapia_panoramic_ice_1794379125393.jpg"
           alt="Latar belakang panorama ikan nila segar di atas es kristal"
           className="w-full h-full object-cover object-[78%_center] lg:object-center select-none"
           referrerPolicy="no-referrer"

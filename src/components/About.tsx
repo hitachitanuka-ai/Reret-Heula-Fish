@@ -42,7 +42,7 @@ export const About: React.FC = () => {
             <div className="gradient-border-ocean transition-transform duration-500 hover:scale-[1.01]">
               <div className="relative rounded-[1.4rem] overflow-hidden bg-gradient-to-b from-[#F4FAFD] to-white">
                 <img
-                  src="/src/assets/images/biofloc_aquaculture_tanks_1794378111238.jpg"
+                  src="/assets/images/biofloc_aquaculture_tanks_1794378111238.jpg"
                   alt="Fasilitas Budidaya Kolam Bioflok Reret Heula Fish"
                   className="w-full h-80 sm:h-96 lg:h-[480px] object-cover hover:scale-104 transition-transform duration-700 ease-out"
                   referrerPolicy="no-referrer"

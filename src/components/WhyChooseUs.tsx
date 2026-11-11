@@ -35,7 +35,7 @@ export const WhyChooseUs: React.FC = () => {
               {/* Subtle background image snippet with deep scrim */}
               <div className="absolute inset-0 z-0 opacity-20 group-hover:opacity-30 transition-opacity duration-700">
                 <img
-                  src="/src/assets/images/biofloc_aquaculture_tanks_1794378111238.jpg"
+                  src="/assets/images/biofloc_aquaculture_tanks_1794378111238.jpg"
                   alt="Biofloc tanks"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />

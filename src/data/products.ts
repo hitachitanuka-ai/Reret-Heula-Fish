@@ -28,7 +28,7 @@ export const productsData: ProductItem[] = [
       'Ikan nila hasil budidaya yang disiapkan untuk memenuhi kebutuhan konsumsi sehari-hari. Tersedia dalam pilihan kondisi utuh maupun sudah dibersihkan sehingga lebih praktis untuk diolah.',
     fullDescription:
       'Ikan nila hasil budidaya teknologi bioflok Reret Heula Fish yang dirawat dalam kualitas air terkontrol sehingga menghasilkan tekstur daging tebal, rasa gurih alami, dan tidak berbau lumpur/tanah. Dipanen secara selektif saat ukuran konsumsi ideal untuk menjaga kesegaran optimal saat sampai di tangan pelanggan.',
-    image: '/src/assets/images/hero_tilapia_fresh_ice_1794378108795.jpg',
+    image: '/assets/images/hero_tilapia_fresh_ice_1794378108795.jpg',
     altText: 'Ikan nila segar utuh di atas es batu kristal',
     highlights: [
       'Ikan nila utuh segar',
@@ -57,7 +57,7 @@ export const productsData: ProductItem[] = [
       'Potongan daging ikan nila tanpa tulang utama yang praktis untuk berbagai kebutuhan masakan. Cocok untuk digoreng, dipanggang, maupun diolah menjadi berbagai hidangan.',
     fullDescription:
       'Potongan daging murni ikan nila tanpa duri utama yang diproses secara higienis dari ikan nila segar hasil panen bioflok. Sangat disukai oleh keluarga, anak-anak, maupun dapur kuliner dan restoran karena menghemat waktu persiapan memasak dan memberikan konsistensi rasa yang prima.',
-    image: '/src/assets/images/product_tilapia_fillet_1794378109507.jpg',
+    image: '/assets/images/product_tilapia_fillet_1794378109507.jpg',
     altText: 'Potongan fillet ikan nila segar tanpa tulang di atas es',
     highlights: [
       'Produk fillet bersih tanpa tulang utama',
@@ -86,7 +86,7 @@ export const productsData: ProductItem[] = [
       'Produk ikan nila yang telah dipersiapkan dengan bumbu marinasi sehingga lebih praktis untuk dimasak. Menjadi pilihan bagi konsumen yang menginginkan hidangan ikan lezat tanpa perlu repot menyiapkan bumbu dari awal.',
     fullDescription:
       'Kombinasi ikan nila segar berkualitas dengan racikan bumbu rempah tradisional pilihan yang meresap sempurna ke dalam serat daging. Siap langsung digoreng atau dibakar kapan saja tanpa perlu repot mengulek bumbu dan membersihkan ikan.',
-    image: '/src/assets/images/product_tilapia_marinated_1794378110836.jpg',
+    image: '/assets/images/product_tilapia_marinated_1794378110836.jpg',
     altText: 'Ikan nila bumbu marinasi rempah kuning siap masak',
     highlights: [
       'Ikan nila berbumbu rempah alami',

@@ -21,7 +21,7 @@ export const processSteps: ProcessStep[] = [
       'Pemantauan parameter air (pH, oksigen terlarut, suhu)',
     ],
     icon: 'Waves',
-    image: '/src/assets/images/biofloc_aquaculture_tanks_1794378111238.jpg',
+    image: '/assets/images/biofloc_aquaculture_tanks_1794378111238.jpg',
   },
   {
     stepNumber: '02',
@@ -35,7 +35,7 @@ export const processSteps: ProcessStep[] = [
       'Penentuan kepadatan tebar yang proporsional',
     ],
     icon: 'Fish',
-    image: '/src/assets/images/step02_tilapia_fingerlings_stocking_1794380182417.jpg',
+    image: '/assets/images/step02_tilapia_fingerlings_stocking_1794380182417.jpg',
   },
   {
     stepNumber: '03',
@@ -49,7 +49,7 @@ export const processSteps: ProcessStep[] = [
       'Pengawasan kebersihan dan sirkulasi air setiap hari',
     ],
     icon: 'Activity',
-    image: '/src/assets/images/step03_biofloc_feeding_maintenance_1794380182898.jpg',
+    image: '/assets/images/step03_biofloc_feeding_maintenance_1794380182898.jpg',
   },
   {
     stepNumber: '04',
@@ -63,7 +63,7 @@ export const processSteps: ProcessStep[] = [
       'Penanganan hati-hati untuk mencegah stres pada ikan',
     ],
     icon: 'CheckCircle2',
-    image: '/src/assets/images/harvest_tilapia_selection_1794378111587.jpg',
+    image: '/assets/images/harvest_tilapia_selection_1794378111587.jpg',
   },
   {
     stepNumber: '05',
@@ -77,7 +77,7 @@ export const processSteps: ProcessStep[] = [
       'Pemberian bumbu marinasi rempah alami',
     ],
     icon: 'Sparkles',
-    image: '/src/assets/images/step05_fish_fillet_preparation_1794380183495.jpg',
+    image: '/assets/images/step05_fish_fillet_preparation_1794380183495.jpg',
   },
   {
     stepNumber: '06',
@@ -91,6 +91,6 @@ export const processSteps: ProcessStep[] = [
       'Pengiriman tepat waktu untuk pelanggan B2C dan B2B',
     ],
     icon: 'Truck',
-    image: '/src/assets/images/step06_packaging_cold_chain_delivery_1794380183471.jpg',
+    image: '/assets/images/step06_packaging_cold_chain_delivery_1794380183471.jpg',
   },
 ];

@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  
+  --color-navy: #102A43;
+  --color-navy-deep: #0B1F33;
+  --color-ocean: #087EAC;
+  --color-ocean-dark: #06658b;
+  --color-ocean-light: #69BCE0;
+  --color-blue-light: #D9F0FA;
+  --color-blue-soft: #EAF6FB;
+  --color-slate-body: #526477;
+  --color-border-light: #DCE7EF;
+  --color-muted-gray: #8495A5;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Subtle Water Ripple & Topographic Wave Texture Pattern */
+.bg-water-texture {
+  background-image: radial-gradient(rgba(8, 126, 172, 0.06) 1px, transparent 1px),
+    radial-gradient(rgba(105, 188, 224, 0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+/* Oceanic Wave Contour Background */
+.bg-ocean-waves {
+  background-color: #ffffff;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(217, 240, 250, 0.4) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(234, 246, 251, 0.6) 0%, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(105, 188, 224, 0.05) 0%, transparent 50%);
+}
+
+/* Deep Navy Oceanic Wave Texture */
+.bg-deep-ocean-texture {
+  background-color: #102A43;
+  background-image: 
+    radial-gradient(circle at 20% 15%, rgba(8, 126, 172, 0.25) 0%, transparent 45%),
+    radial-gradient(circle at 80% 85%, rgba(105, 188, 224, 0.15) 0%, transparent 50%),
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 32px 32px, 32px 32px;
+}
+
+/* Gradient Border Frame Classes for Soft Organic Images */
+.gradient-border-ocean {
+  background: linear-gradient(135deg, rgba(8, 126, 172, 0.6) 0%, rgba(105, 188, 224, 0.3) 50%, rgba(217, 240, 250, 0.7) 100%);
+  padding: 2px;
+  border-radius: 1.5rem;
+  box-shadow: 0 16px 36px -12px rgba(8, 126, 172, 0.18);
+}
+
+.gradient-border-subtle {
+  background: linear-gradient(145deg, rgba(8, 126, 172, 0.35) 0%, rgba(220, 231, 239, 0.9) 60%, rgba(255, 255, 255, 0.8) 100%);
+  padding: 1.5px;
+  border-radius: 1.25rem;
+  box-shadow: 0 12px 30px -10px rgba(16, 42, 67, 0.08);
+}
+
+/* Soft Edge Feathering / Vignette for Non-Boxy Images */
+.mask-feather-bottom {
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+
+.mask-feather-radial {
+  mask-image: radial-gradient(ellipse 98% 95% at 50% 50%, black 80%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 98% 95% at 50% 50%, black 80%, transparent 100%);
+}

@@ -162,7 +162,14 @@ export const Footer: React.FC<FooterProps> = ({ onProductClick }) => {
               <div className="space-y-2.5 text-xs text-slate-300 mb-6">
                 <div className="flex items-center gap-2">
                   <Phone className="w-3.5 h-3.5 text-[#69BCE0] shrink-0" />
-                  <span>{siteConfig.whatsAppDisplay}</span>
+                  <a
+                    href={whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#69BCE0] transition-colors"
+                  >
+                    {siteConfig.whatsAppDisplay}
+                  </a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-3.5 h-3.5 text-[#69BCE0] shrink-0" />

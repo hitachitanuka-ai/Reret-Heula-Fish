@@ -32,8 +32,8 @@ export const siteConfig: SiteConfig = {
   taglineSub: 'Premium Modern Aquaculture & Fresh Seafood',
   establishedYear: 2016,
   // Nomor kontak WhatsApp terpusat (dapat diganti kapan saja)
-  whatsAppNumber: '6281313332016', 
-  whatsAppDisplay: '+62 813-1333-2016',
+  whatsAppNumber: '6283819888657', 
+  whatsAppDisplay: '+62 838-1988-8657',
   email: 'info@reretheula.com',
   address: 'Fasilitas Budidaya Bioflok Reret Heula Fish, Jawa Barat',
   city: 'Bandung / Priangan Timur',

@@ -176,7 +176,14 @@ export const Contact: React.FC = () => {
                       <Phone className="w-4 h-4 text-[#087EAC] shrink-0 mt-0.5" />
                       <div>
                         <span className="font-semibold text-[#102A43] block">WhatsApp Terpusat:</span>
-                        <span>{siteConfig.whatsAppDisplay}</span>
+                        <a
+                          href={createWhatsAppUrl(defaultMessages.general)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-[#087EAC] hover:underline transition-colors font-medium text-[#102A43]"
+                        >
+                          {siteConfig.whatsAppDisplay}
+                        </a>
                       </div>
                     </div>
 
